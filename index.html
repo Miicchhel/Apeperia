@@ -145,21 +145,25 @@
 
         <section class="institucional container">
             <h2 class="institucional__titulo">Institucional</h2>
-            <p class="institucional__descricao">Um pouco mais sobre a Apeperia</p>
-            <address class="institucional__endereco">Rua Vergueiro, 3185 <br> 
-                Vila Mariana, São Paulo
-                <article class="institucional__contato">
-                    <p>
-                        <a href="tel:+551155712751" class="institucional__contato-telefone">(11) 5571-2751</a> ou
-                        <a href="mailto:contato@apeperia.com" class="institucional__contato-email">contato@apeperia.com</a>
-                    </p>
-                </article>
+            <div class="institucional__conteudo">
+                <div class="institucional__informacoes">
+                    <p class="institucional__descricao">Um pouco mais sobre a Apeperia</p>
+                    <address class="institucional__endereco">Rua Vergueiro, 3185 <br>
+                        Vila Mariana, São Paulo
+                        <article class="institucional__contato">
+                            <p>
+                                <a href="tel:+551155712751" class="institucional__contato-telefone">(11) 5571-2751</a> ou
+                                <a href="mailto:contato@apeperia.com" class="institucional__contato-email">contato@apeperia.com</a>
+                            </p>
+                        </article>
+                    </address>
+                </div>
                 <video src="img/formacao-java.mp4" class="institucional__video" controls></video>
-            </address>
+            </div>
         </section>
     </main>
 
-    <footer class="rodape-container rodape">
+    <footer class="rodape-container rodape container">
         <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="rodape__logo">
         <ul class="rodape__social">
             <li>
@@ -178,16 +182,19 @@
                 </a>
             </li>
         </ul>
-        <nav>
-            <ul class="rodape__navegacao">
-                <li class="rodape__link"><a href="#">Sobre</a></li>
-                <li class="rodape__link"><a href="#">Planos</a></li>
-                <li class="rodape__link"><a href="#">Blog</a></li>
-                <li class="rodape__link"><a href="#">Destaques</a></li>
-                <li class="rodape__link"><a href="#">Institucional</a></li>
-                <li class="rodape__link"><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+
+        <div class="rodape__navegacao__conteudo">
+            <nav>
+                <ul class="rodape__navegacao">
+                    <li class="rodape__link"><a href="#">Sobre</a></li>
+                    <li class="rodape__link"><a href="#">Planos</a></li>
+                    <li class="rodape__link"><a href="#">Blog</a></li>
+                    <li class="rodape__link"><a href="#">Destaques</a></li>
+                    <li class="rodape__link"><a href="#">Institucional</a></li>
+                    <li class="rodape__link"><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 </body>
 

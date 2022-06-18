@@ -63,3 +63,34 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .institucional__conteudo {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        text-align: left;
+    }
+
+    .institucional__descricao{
+        margin-bottom: 1rem
+    }
+
+    .institucional__endereco {
+        margin-bottom: 0;
+    }
+
+    .institucional__contato-email {
+        display: block;
+    }
+
+    .institucional__video {
+        align-self: flex-end;
+
+        width: 375px;
+    }
+
+}
